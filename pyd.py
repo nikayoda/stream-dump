@@ -241,8 +241,8 @@ if __name__ == '__main__':
     args = parser.parse_args()
     stop_time = 0
 
-    db = MySQLdb.connect(host="85.118.98.251", port=3306, user="file_size",
-                         passwd="63GeZhPSuMfAZ7fz", db="file_size")
+    db = MySQLdb.connect(host="##.###.###.####", port=3306, user="file_size",
+                         passwd="#####", db="file_size")
     cursor = db.cursor()
 
     cursor.execute("SELECT * FROM channels WHERE id = " + args.channel)
